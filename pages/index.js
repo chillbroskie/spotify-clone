@@ -1,14 +1,21 @@
 import Head from 'next/head'
+import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Spotify 1.337</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <h1>This is a dope spotify clone</h1>
+      <main>
+        <Sidebar />
+        {/* center */}
+
+        <div>
+          {/* player */}
+        </div>
+      </main>
     </div>
   )
 }
